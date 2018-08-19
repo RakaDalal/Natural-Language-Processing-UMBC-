@@ -1,2 +1,0 @@
-#!/bin/bash
-python Q6_main.py $1 $2 $3 $4 $5
