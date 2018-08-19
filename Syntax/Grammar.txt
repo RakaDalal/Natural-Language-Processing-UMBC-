@@ -1,0 +1,43 @@
+3 Root --> S .
+1 Root --> S !
+1 Root --> S ?
+2 S --> SNP SVP
+1 S --> PNP PVP
+1 SVP --> SVerb SNP
+1 SVP --> SVerb PNP
+1 PVP --> PVerb SNP
+1 PVP --> PVerb PNP
+1 SNP --> SNP PP
+1 PNP --> PNP PP
+1 PP --> Prep SNP
+1 PP --> Prep PNP
+1 Prep --> to
+1 Prep --> of
+4 SNP --> SCNPish
+3 SNP --> SVNPish
+2 SNP --> an SVNPish
+2 SNP --> a SCNPish
+4 PNP --> PCNPish
+3 PNP --> PVNPish
+3 SCNPish --> CAdj SCNPish
+1 SVNPish --> VAdj SVNPish
+3 PCNPish --> CAdj PCNPish
+1 PVNPish --> VAdj PVNPish
+1 CAdj --> cquality csize ccolour
+1 VAdj --> vquality vsize vcolour
+1 cquality --> beautiful
+1 csize --> big
+1 ccolour --> white
+1 vquality --> ugly
+1 vsize --> enormous
+1 vcolour --> orange
+1 SCNPish --> sandwich
+1 SCNPish --> Chris
+1 SCNPish --> dog
+1 SVNPish --> apple
+1 PVNPish --> apples
+1 PCNPish --> Girls
+1 SVerb --> eats
+1 SVerb --> adopted
+1 PVerb --> eat
+1 PVerb --> adopted
